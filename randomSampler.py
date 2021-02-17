@@ -28,7 +28,7 @@ else:
 
     # build sample list; the 0-indexed header will not be included in the skip list
     skip = sorted( random.sample( range(1,n+1), n-sampleSize ) )
-    df = pd.read_csv(inputFile, skiprows=skip)
+    df = pd.read_csv(inputFile, skiprows=skip, low_memory=False)
 
     # dump dataframe out to csv file
     print(f"  <== writing out to [{outputFile}]")
