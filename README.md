@@ -19,7 +19,7 @@ Synthetic data can be evaluated against the authentic data based on three fundam
 * Privacy preservation
 * Usefulness / utility
 
-A high-level workflow to evaluate a synthetic dataset's ability to behave the same as the authentic dataset when used to build ML models:
+The "usefulness" dimension focuses on a synthetic dataset's ability to behave similarly as the authentic dataset when used to build ML models.  A high-level workflow to evaluate usefulness could be:
 
 ```mermaid
 flowchart TD
